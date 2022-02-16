@@ -5,14 +5,14 @@
 	<meta name="keywords" content="HTML, HTML5, assignment">
 	<meta name="author" content="Nicky Samantha Rosen">
 </head>
-<body>
+<body><!--this is the body and header -->
 	<header id="header">
 		<h1>Assignment 2 Nicky Rosen</h1>
 		<nav id="main-navigation" class="navigation">
 	</header>
 	<main id="main">
 		<div>
-			<section id="table" class="main">
+			<section id="table" class="main"> <!--tables are here -->
 				<h2>Employee List</h2>
 				<table>
 					<thead>
@@ -59,7 +59,7 @@
 				</table>
 		</div>
 		<div>
-			<h2>Animals</h2>
+			<h2>Animals</h2><!-- animal pictures yahoo -->
 			<figure>
 				<img src="img/elephant.jpg" alt="Elephant" width="300" height="200">
 				<figcaption>This is an Elephant</figcaption>
@@ -67,54 +67,61 @@
 			<figure>
 				<img src="img/lion.jpg" alt="Lion" width="300" height="200">
 				<figcaption>This is an Lion</figcaption>
-			</figure><figure>
+			</figure>
+			<figure>
 				<img src="img/snake.jpg" alt="Snake" width="300" height="200">
 				<figcaption>This is a Snake</figcaption>
-			</figure><figure>
+			</figure>
+			<figure>
 				<img src="img/orca.jpg" alt="Orca" width="300" height="200">
 				<figcaption>This is an Orca</figcaption>
 			</figure>
+			<figure>
+				<img src="img/hawk.jpg" alt="Hawk" width="300" height="200">
+				<figcaption>This is a Hawk</figcaption>
+			</figure>
+			
 		</div>
 		
+		<h2>HTML entities</h2>
+		<ul>
+			<li>
+				This is a&nbsp;non breaking space
+			</li>
+			<li>
+				an ampersand : &amp;
+			</li>
+			<li>
+				pound symbol: &pound;
+			</li>
+			<li>
+				copyright symbol: &copy;
+			</li>
+		</ul>
+		<h2>Special tags:</h2>
+		<article id="special tags" class="main">
+			<dl>
+				<dt>Coffee</dt>
+				<dd>black hot drink</dd>
+				<dt>milk</dt>
+				<dd>white cold drink</dd>
+			</dl>
+		<article id="st-abbr" class="special tag">
+			<p><abbr title="hypertext markup language">HTML</abbr></p>
+			<p><abbr title="cascading style sheets">CSS</abbr></p>
+		</article>
+		<article class="special-tag" id="details">
+			<details>
+				<summary>What is a mobile phone?</summary>
+				<p>a mobile phone, or cell phone, is a portable telephone that can make and receive calls over radio frequencies.</p>
+		</article>
+		<h3>Hidden comment:<h3>
+		<!-- this is a comment -->
 		
-		
-		
-		<br><br><br><br><br><br>
-		
-		<div>
-			<br><br>
-			<h2>some links in a div </h2>
-				<a href="https://google.ca" title="google">Google link </a>
-				<a href="https://amazon.ca" title="amazon"> Amazon link</a>
-		</div>
-		<div>
-			<h3>Some lists in a div</h3>
-				<ul>
-					<li>
-						unordered list element 1
-					</li>
-					<li>
-						unordered list element 2
-					</li>
-					<li>
-						unordered list element 3 
-					</li>
-				</ul>
-				<ol>
-					<li>
-						ordered list element 1
-					</li>
-					<li>
-						ordered list element 2
-					</li>
-					<li>
-						ordered list element 3
-					</li>
-				</ol>
-		</div>
+	
 	</main>
 	<footer id="footer">
-	this is the footer
+	
 	</footer>
 </body>
 </html>
