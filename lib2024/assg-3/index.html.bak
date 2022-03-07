@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms in HTML</title>
+	<meta name ="author" content="Nicky Samantha Rosen">
+</head>
+<body>
+	<h1>Welcome to my form site!</h1>
+	<p>Just gonna ask you (the reader) a few little questions</p>
+	<div id="wrapper" class="wrapper">
+		<section id="forms" class="main">
+			<form action="page.php" method="get">
+				<div id="FirstName-container" class="form-elm">
+					<label for="FirstName">First Name: </label>
+					<input type="text" name="FirstName" id="FirstName" placeholder="enter here">
+					
+				</div>
+				<div id="LastName-container" class="form-elm">
+					<label for="LastName">Last Name: </label>
+					<input type="text" name="LastName" id="LastName" placeholder="enter here">
+				</div>
+				<div id="GenderContainer" class="form-elm">
+					<p>whats your gender?</p>
+					<label for="yep">
+						<input type="radio" name="like-form" id="yep" value="yep">
+						Yep
+					</label>
+					
+					<label for="nope">
+						<input type="radio" name="like-form" id="nope" value="nope">
+						nope
+					</label>
+					
+					<label for="cop">
+						<input type="radio" name="like-form" id="cop" value="cop">
+						what are you, a cop?
+					</label>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div id="BirthDay" class="form-elm">
+					<label for="BDay">Whats your birthday?</label><br>
+					<input type="date" name="BDay" id="BDay">
+				</div>
+				<br>
+				<br>
+				<br>
+				
+				<div id="Address" class="form-elm">
+					<label for="Address"> Where do you live? Like the street number</label><br>
+					<input type="text" name="Address" id="Address" placeholder="street and number please">
+				</div>
+				<br>
+				<br>
+				<br>
+				
+				<div id="Country" class="form-elm">
+					<label for "Country"> what country that doesn't exist would you want to vacation in?</label><br>
+					<select id="Country" name="country">
+						<option value="shire">The shire</option>
+				</div>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
