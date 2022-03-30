@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<title>kitty website</title>
+	<link rel="stylesheet" type="text/css" href="styles/style - Copy.css">
+</head>
+<body>
+	
+	<header class="site-header" id="site-header">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="page-title" id="page-title">
+			<h1>This is a web site</h1>
+		</div>
+		
+		<nav class="site-nav" id="site-nav">
+			<p class="home" id="home">
+				home
+			</p>
+			
+			<p class="about" id="about">
+				about
+			</p>
+			
+			<p class="contact" id="contact">
+				contact
+			</p>
+			
+			<p class="work" id="work">
+				work
+			</p>
+			
+		</nav>
+	</header>
+	<article class="article-content" id="article-content">
+		<h2>content title</h2>
+		<section class="flavour-text" id="flavour-text">
+			<aside>
+				<img src="images/logo.png">
+				<p>Title of side bar</p>
+				<p>this is more flavour text wooo</p>
+			</aside>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci a lectus pellentesque interdum. Ut finibus non mi eget porttitor. Nulla venenatis viverra tellus id blandit. Donec iaculis accumsan leo at imperdiet. Pellentesque elementum nunc libero, sed tristique justo ornare congue. Vivamus felis sem, sodales a magna vel, vulputate congue libero. Vivamus tincidunt, ex ut tincidunt congue, nisl enim blandit metus, vitae lacinia ligula quam non tortor. Ut aliquam luctus felis, sit amet imperdiet nulla interdum vitae. Nullam a eleifend ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin quis ex nisl. Maecenas ullamcorper quis mauris ac facilisis. Sed auctor purus non est tincidunt, non ultricies mi porttitor. Aliquam et volutpat justo. Pellentesque porta, est sed vulputate aliquet, ex dui pulvinar ipsum, vel vestibulum ante augue non urna. Morbi eu nisi a dolor eleifend commodo vitae vel enim.<br>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci a lectus pellentesque interdum. Ut finibus non mi eget porttitor. Nulla venenatis viverra tellus id blandit. Donec iaculis accumsan leo at imperdiet. Pellentesque elementum nunc libero, sed tristique justo ornare congue. Vivamus felis sem, sodales a magna vel, vulputate congue libero. Vivamus tincidunt, ex ut tincidunt congue, nisl enim blandit metus, vitae lacinia ligula quam non tortor. Ut aliquam luctus felis, sit amet imperdiet nulla interdum vitae. Nullam a eleifend ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin quis ex nisl. Maecenas ullamcorper quis mauris ac facilisis. Sed auctor purus non est tincidunt, non ultricies mi porttitor. Aliquam et volutpat justo. Pellentesque porta, est sed vulputate aliquet, ex dui pulvinar ipsum, vel vestibulum ante augue non urna. Morbi eu nisi a dolor eleifend commodo vitae vel enim.<br>
+			
+			</p>
+			
+		</section>
+		
+		<section class="secondary-content" id="secondary-content">
+			<h3> secondary content title</h3>
+				<img src="images/logo.png" id="left-image">
+				<img src="images/logo.png" id="middle-image">
+				<img src="images/logo.png" id="right-image">
+		</section>
+		
+	</article>
+	<footer class="page-footer" id="page-footer">
+		<p> footer!!!</p>
+	</footer>
+</body>
+</html>
