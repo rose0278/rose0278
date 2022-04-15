@@ -1,0 +1,86 @@
+.page-title {
+	font-size: 100%;
+	
+}
+.home {
+	box-sizing: border-box;
+	width: 65px;
+	height:50px;
+	background: rgb(0,110,200);
+	font-size: 200%;
+	margin:50px;
+	text-align: center;
+	display: inline;
+}
+.about{
+	box-sizing: border-box;
+	width: 65px;
+	height:25px;
+	background: rgb(0,110,200);
+	font-size: 200%;
+	margin:50px;
+	text-align: center;
+	display: inline;
+}
+.contact {
+	box-sizing: border-box;
+	width: 65px;
+	height:25px;
+	background: rgb(0,110,200);
+	font-size: 200%;
+	margin:50px;
+	text-align: center;
+	display: inline;
+}
+.work {
+	box-sizing: border-box;
+	width: 65px;
+	height:25px;
+	background: rgb(0,110,200);
+	font-size: 200%;
+	margin:50px;
+	text-align: center;
+	display: inline;
+}
+.logo {
+	float: left;
+	width:200px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: rgb(110,200,110);
+	/*box-sizing border box makes the width adjust according to padding*/
+}
+.site-header {
+	box-sizing: border-box;
+	background: rgb(110,200,110);
+	height:170px;
+}
+.site-nav {
+	color:rgb (255,0,255);
+}
+aside {
+	float:right;
+	padding-left:10px;
+	margin-left:10px;
+	background: rgb(0,255,0);
+	width:30%;
+}
+.secondary-content {
+	float:center;
+}
+#left-image {
+	float:left;
+}
+#middle-image {
+	float:center;
+	padding-left:300px;
+}
+#right-image {
+	float:right;
+}
+.page-footer {
+	background: rgb (110,200,110);
+	box-sizing: border-box;
+	height:20px;
+	width:100%;
+}
